@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="wrapper"><h1>Password Generator  </h1>
+
+    <h2 id="passwordGenerated"></h2> 
+
+    <label for="PasswordLength" style="font-size: larger;"> Select Password Length :  </label>
+
+
+    <input type="number" min="1" max="20" id="PasswordLength" style="text-align: center;">
+
+    <br><br>
+
+    <input type="checkbox" name="" id="toUppercase">
+    <label for="toUppercase" class="choices">Includes Uppercase Letters</label>
+
+    <br>
+    <br>
+
+    <input type="checkbox" name="" id="toLowercase">
+    <label for="toLowercase" class="choices">Includes Lowercase Letters</label>
+
+    <br>
+    <br>
+
+    <input type="checkbox" name="" id="toNumbers">
+    <label for="toNumbers" class="choices">Includes Numbers</label>
+
+    <br>
+    <br>
+
+    <input type="checkbox" name="" id="Symbols">
+    <label for="Symbols" class="choices">Includes Symbols</label>
+
+    <br>
+    <br>
+
+    <button id="Mybutton" >Generate Passsword</button>
+</div>
+     
+    
+   
+
+<script src="script.js"></script>
+</body>
+</html>
